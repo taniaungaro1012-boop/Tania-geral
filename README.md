@@ -30,4 +30,27 @@ Coleção de **13 squads de agentes de IA** (~155 agentes) prontos para usar com
 2. **Ativar um agente específico** — copie o bloco de prompt do agente desejado dentro do arquivo.
 3. **Multi-agente (conselho)** — use os cenários multi-agente descritos nos arquivos para encadear vários especialistas.
 
+### 🧩 Skills (Claude)
+
+Cada squad também está disponível como **skill do Claude**:
+
+- **[`.claude/skills/`](./.claude/skills/)** — uma pasta por squad com `SKILL.md` (orquestrador, roteamento e critérios de qualidade) e `squad-completo.md` (todos os agentes em detalhe). O Claude Code carrega essas skills automaticamente ao abrir este repositório.
+- **[`skills-zip/`](./skills-zip/)** — as mesmas skills em `.zip`, prontas para enviar no claude.ai em *Configurações → Capacidades → Skills → Enviar skill*.
+
+| Skill | Squad |
+|---|---|
+| `advisory-board` | Advisory Board |
+| `brand-squad` | Brand Squad |
+| `c-level-squad` | C-Level Squad |
+| `claude-code-mastery` | Claude Code Mastery |
+| `copy-master` | Copy Master |
+| `copy-squad` | Copy Squad |
+| `cybersecurity-squad` | Cybersecurity |
+| `data-squad` | Data Squad |
+| `design-squad` | Design Squad |
+| `hormozi-squad` | Hormozi Squad |
+| `movement-squad` | Movement |
+| `storytelling-squad` | Storytelling |
+| `traffic-masters` | Traffic Masters |
+
 > Prompts gerados a partir do repositório *xquads-squads* (ohmyjahh/xquads-squads).
